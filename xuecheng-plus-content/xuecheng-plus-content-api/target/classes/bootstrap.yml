@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /content
+  port: 63040
+
+spring:
+  application:
+    name: content-api
+
+
+logging:
+  config: classpath:log4j2-dev.xml
+
+
+# swagger
+swagger:
+  title: "Learning Online "
+  description: "微服务在线学习平台"
+  base-package: com.xuecheng.content
+  enabled: true
+  version: 1.0.0
